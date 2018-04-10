@@ -1,6 +1,6 @@
 {
-  "name": "ember-cli-deploy-firebase-pack",
-  "version": "0.3.2",
+  "name": "@econlab/ember-cli-deploy-firebase-pack",
+  "version": "0.4.1",
   "description": "An ember-cli-deploy plugin pack implementing a simple firebase hosting deploy pattern.",
   "keywords": [
     "ember-addon",
@@ -8,17 +8,17 @@
     "firebase"
   ],
   "license": "MIT",
-  "author": "ibroadfo",
-  "repository": "https://github.com/ibroadfo/ember-cli-deploy-firebase-pack",
+  "contributors": [{ "name": "ibroadfo" }, { "name": "econlab" }],
+  "repository": "https://github.com/econlab/ember-cli-deploy-firebase-pack",
   "scripts": {},
   "dependencies": {
-    "ember-cli-deploy-build": "^1.0.0",
-    "ember-cli-deploy-firebase": "~0.2.0",
+    "ember-cli-deploy-build": "^1.1.1",
+    "@econlab/ember-cli-deploy-firebase": "^0.3.2",
     "ember-cli-deploy-revision-data": "^1.0.0"
   },
   "devDependencies": {
-    "ember-cli": "2.12.1",
-    "ember-cli-release": "0.2.9"
+    "ember-cli": "^2.12.1",
+    "ember-cli-release": "^0.2.9"
   },
   "engines": {
     "node": ">= 0.12.0"

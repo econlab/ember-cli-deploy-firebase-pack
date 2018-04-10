@@ -13,7 +13,7 @@ If you need to continue using firebase 2.x, please use the 0.1.x branch.
 
 ```
 ember install ember-cli-deploy
-ember install ember-cli-deploy-firebase-pack
+ember install @econlab/ember-cli-deploy-firebase-pack
 ```
 
 The necessary set of plugins will be available to ember-cli-deploy.
@@ -25,5 +25,5 @@ A "plugin pack" is a concept supported by ember-cli-deploy that allows a single 
 ## What plugins are made available?
 
 * [ember-cli-deploy-build](https://github.com/ember-cli-deploy/ember-cli-deploy-build)
-* [ember-cli-deploy-firebase](https://github.com/ibroadfo/ember-cli-deploy-firebase)
+* [ember-cli-deploy-firebase](https://github.com/econlab/ember-cli-deploy-firebase)
 * [ember-cli-deploy-revision-data](https://github.com/ember-cli-deploy/ember-cli-deploy-revision-data)
